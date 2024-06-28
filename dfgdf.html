@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            /* min-height: 1300px; */
+            /* background-color: background-color: #4158D0; */
+            /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 350px;
+            height: 600px;
+            background-color: white;
+            border-radius: 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            /* padding: 20px; */
+            box-shadow: -1px 19px 73px 11px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            height: 200px;
+            width: 100%;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            /* border-radius: 20px; */
+
+        }
+
+        .textbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 5px;
+            margin: -45px;
+            padding: 20px;
+            width: 75%;
+        }
+
+        .amountbox {
+            height: 10%;
+            width: 90%;
+            background-color: #8BC6EC;
+            border-radius: 20px;
+            margin: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14);
+        }
+
+        #paymentbutton {
+            height: 6%;
+            width: 70%;
+            background-color: rgb(9, 9, 67);
+            border-radius: 20px;
+            color: white;
+            font-size: 18px;
+            box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14);
+            /* https://htmlcssfreebies.com/material-design-box-shadows/ */
+        }
+
+        .boxleft {
+            display: flex;
+            /* justify-content:space-evenly; */
+
+        }
+
+        /* .boxleft p {
+            /* margin: 0px 10px; */
+        /* */ 
+
+        .boxleft img {
+            height: 15%;
+            width: 15%;
+            border-radius: 20px;
+            margin: 15px 13px;
+        }
+        .boxleft p{
+            color: rgb(5, 4, 4);
+        }
+
+        a {
+            color: rgb(17, 17, 17);
+            font-size: 1.3rem;
+            text-decoration: none;
+        }
+        .boxright{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxright a{
+            margin: 2px 21px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="img/download (3).jpeg" alt="">
+            <h2>Order Summery</h2>
+            <div class="textbox">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, hic assumenda? Itaque velit optio
+                    fuga dolores veniam sed minima in quae earum cupiditate? Magni quisquam ducimus sapiente corporis
+                    vitae dolor.</p>
+            </div>
+            <div class="amountbox">
+                <div class="boxleft">
+                    <img src="img/upi-image-2.jpg" alt="">
+                    <p>Amount Plan <br>$999.9/Year</p>
+                </div>
+                <div class="boxright">
+                    <a href="#">Charge</a>
+                </div>
+            </div>
+            <!-- https://htmlcssfreebies.com/material-design-box-shadows/ -->
+            <button id="paymentbutton">Proceed to Payment</button>
+            <a href="#">Cancel Order</a>
+
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

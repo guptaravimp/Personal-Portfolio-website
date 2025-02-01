@@ -205,7 +205,12 @@ article {
   border-radius: inherit;
   z-index: -1;
 }
-
+.title{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	align-items:center;
+}
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
